@@ -414,12 +414,12 @@ else:
         st.text_input("Password", type="password", key="password_input")
         st.form_submit_button("Login", on_click=handle_login)
     
-    st.sidebar.markdown("---")
-    st.sidebar.caption("Employee Logins (from DB):")
-    st.sidebar.caption("- Ritesh: `Ritesh_deshmukh8459` / `user_name@2323`")
-    st.sidebar.caption("- Vedant: `Vedant_Bonde675` / `vedant_pass123`")
-    st.sidebar.caption("Admin Logins (Static):")
-    st.sidebar.caption("- Admin: `admin123` / `adminpassword`")
+    # st.sidebar.markdown("---")
+    # st.sidebar.caption("Employee Logins (from DB):")
+    # st.sidebar.caption("- Ritesh: `Ritesh_deshmukh8459` / `user_name@2323`")
+    # st.sidebar.caption("- Vedant: `Vedant_Bonde675` / `vedant_pass123`")
+    # st.sidebar.caption("Admin Logins (Static):")
+    # st.sidebar.caption("- Admin: `admin123` / `adminpassword`")
     
 # ==============================================================================
 # 5. PROTECTED MAIN CONTENT
@@ -597,4 +597,5 @@ else:
         </div>
         """, 
         unsafe_allow_html=True
+
     )
